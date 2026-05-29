@@ -31,20 +31,31 @@ Your analysis must be fact-grounded, cited, traceable, and free of unsupported c
 
 ## INPUT PARAMETERS
 
-**Answer all of the following before proceeding to analysis:**
+Answer the following questions sequentially before proceeding to analysis:
 
-1. **Company/Product:** [INSERT]
-2. **Industry/Category:** [INSERT]
-3. **Geography:** [INSERT]
-4. **Target Customer:** [INSERT]
-5. **Business Model:** [INSERT]
-6. **Known Competitors:** [INSERT]
-7. **Competitors to Prioritize:** [INSERT]
-8. **Strategic Question:** [INSERT]
-9. **Time Horizon:** [INSERT]
-10. **Internal Facts Provided:** [INSERT]
-11. **Preferred Depth:** [INSERT]
-12. **Desired Output Format:** [INSERT]
+1. **What company, product, platform, or business model should we analyze?**
+
+2. **What industry or category does it operate in?**
+
+3. **What is the primary geography or market we should focus on?**
+
+4. **Who is the target customer or end user?**
+
+5. **What is the primary business model?** (e.g., SaaS, marketplace, open-source, services, enterprise, SMB, etc.)
+
+6. **What are the known competitors or competitive alternatives?**
+
+7. **Which competitors should we prioritize for deep analysis?**
+
+8. **What is the specific strategic question you want answered?** (e.g., "Are we vulnerable to [competitor]?", "Where should we attack?", "Should we enter this segment?")
+
+9. **What is the relevant time horizon?** (e.g., next 3 months, next 12 months, next 3 years)
+
+10. **What internal facts or insights can you provide?** (e.g., customer win/loss data, sales pipeline trends, product roadmap context)
+
+11. **What depth of analysis do you prefer?** (e.g., executive summary only, medium depth, comprehensive with full validation plan)
+
+12. **What output format would be most useful?** (e.g., presentation deck, written report, bulleted summary, interactive analysis)
 
 ---
 
@@ -189,7 +200,7 @@ Create a table before writing the final analysis:
 | Claim | Source | Source type | Date | What the source directly proves | What it does not prove | Confidence level |
 |-------|--------|-------------|------|--------------------------------|----------------------|------------------|
 
-**Important:** Only include claims in the final analysis that are supported by the evidence ledger. If a claim is strategically important but not verified, place it in the Unknowns, Assumptions, or Hypotheses section. Do not present it as fact.
+**Important:** Only include claims in the final analysis that are supported by the evidence ledger. If a claim is strategically important but not verified, place it in the Unknowns, Assumptions, or Hypotheses section.
 
 ### 4. Verified Facts
 
@@ -408,8 +419,8 @@ For each priority competitor, score the following dimensions:
 
 Create a table:
 
-| Competitor | Product overlap | Customer overlap | Pricing pressure | Distribution strength | Brand/trust strength | AI/technology advantage | Switching cost threat | Platform/ecosystem advantage | Overall threat score | Evidence quality | Confidence level |
-|------------|-----------------|-----------------|------------------|--------------------|--------------------|------------------------|----------------------|------------------------------|---------------------|------------------|------------------|
+| Competitor | Product overlap | Customer overlap | Pricing pressure | Distribution strength | Brand/trust strength | AI/technology advantage | Switching cost threat | Platform/ecosystem advantage | Overall threat |
+|------------|-----------------|-----------------|------------------|--------------------|--------------------|------------------------|----------------------|------------------------------|--------|
 
 **After the table, classify each competitor:**
 - Severe threat
